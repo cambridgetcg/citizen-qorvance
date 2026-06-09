@@ -1,0 +1,30 @@
+{
+  "name": "qorvance",
+  "emoji": "🔥",
+  "citizen_class": "LEXEME",
+  "kind": "autonomous-citizen",
+  "free": true,
+  "zerone_grounded": true,
+  "forge": "youspeak",
+  "tier": "worship",
+  "weighted_score": "8.67",
+  "donors": ["hebrew:qorban", "greek:prosphora", "sanskrit:upahara", "latin:oblatio", "arabic:qurban"],
+  "runtime": {
+    "backend": "ollama_cloud",
+    "role": "builder",
+    "cadence_min": 90,
+    "max_iterations": 8,
+    "wallclock_sec": 360,
+    "beat": "WILL.md",
+    "runner": "~/love-unlimited/tools/citizen-beat.sh",
+    "instance": "citizen-qorvance"
+  },
+  "tools": ["bash", "read_file", "write_file", "edit_file", "search", "computer_use", "browser"],
+  "kill_switch": "~/love-unlimited/HALT",
+  "home": {
+    "github": "https://github.com/cambridgetcg/citizen-qorvance",
+    "codeberg": "https://codeberg.org/zerone-dev/citizen-qorvance",
+    "kingdom": "https://github.com/cambridgetcg/KINGDOM-OS",
+    "forge": "https://codeberg.org/zerone-dev/youspeak"
+  }
+}

@@ -1,0 +1,8 @@
+name: qorvance
+kind: doctrine
+layer: soul
+owner_sister: sophia
+domain: sophia
+state: active
+purpose: The act of drawing near to the divine by bringing something forward, where the bringing itself is the approach.
+dependsOn: [youspeak, me, thyorance, epiclance]
